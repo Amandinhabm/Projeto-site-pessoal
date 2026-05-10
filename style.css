@@ -1,0 +1,77 @@
+body {
+
+    text-align: center;
+    background-color: mediumpurple;
+    background-size: cover;
+    background-position: center;
+
+}
+
+h1 {
+
+    font-size: 70px;
+    color: whitesmoke;
+    font-family: 'Josefin Sans';
+}
+
+p {
+    font-size: 20px;
+    color: white;
+    font-family: 'Poppins';
+    width: 400px;
+    text-align: center;
+    border: 3px solid rebeccapurple;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 20px;
+    background-color: rebeccapurple;
+    box-shadow: 2px 4px 15px rgba(0, 0, 0, 0.7);
+}
+
+.caixa-titulo{
+    background-color: rebeccapurple;
+    border: 3px solid rebeccapurple;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 20px;
+    text-align: center;
+    width: 94%;
+    box-shadow: 2px 4px 15px rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+img {
+    max-width: 260px;
+    height:450px;
+    border-radius: 20px;
+    object-fit: cover;
+    
+    
+}
+
+.conteudo{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    justify-content: center;
+    position: relative;
+    
+}
+
+.icon{
+    position: absolute;
+    top: 110px;
+    right: 290px;
+    transform: rotate(-20deg);
+    font-size: 50px;
+}
+
+.icon2 {
+    position: absolute;
+    top: 280px;
+    right: 710px;
+    transform: rotate(10deg);
+    font-size: 50px;
+}
